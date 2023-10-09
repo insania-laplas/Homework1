@@ -58,7 +58,6 @@ color: #FFF;
     background-image: url(image/game1.png);
     width: 379px;
     height: 300px;
-    margin-left: 120px;
 }
 .game_2{
     background-image: url(image/game2.png);
@@ -83,7 +82,7 @@ color: #FFF;
     font-weight: 600;
     line-height: 32px;
 }
-.for{}
+
 .game_botton{ 
     display: flex;
     flex-direction: row;
