@@ -38,5 +38,22 @@ let ageUser = prompt("Сколько вам лет?");
 alert(ageUser);
 //Задание 9 (c девятым заданием тоже немного не понимаю как вкладывать в объект динамические переменные, а так же как удалять переменные по заданию которое идёт дальше (сомневаюсь что можно просто стереть или я намудрил?))
 const user = {
-   
-}; 
+    name: 'jack',
+    age: 27,
+    isAdmin: true,
+};
+
+//Задание 9.1
+user.cityofResidence = 'russia';
+alert(user)
+
+//Задание 9.2
+let user = { name: 'jack', age: 27 };
+person['age'] = 25;
+
+//Задание 9.3
+delete user.cityofResidence;
+
+//Задание 9.4
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
