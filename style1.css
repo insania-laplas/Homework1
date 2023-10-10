@@ -27,14 +27,12 @@ a{text-decoration: none;}
     font-weight: 700;
     line-height: normal;
     padding-top: 217px;
-    padding-left: 120px;
 }
 .top_text{color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
-    padding-left: 120px;
     padding-top: 32px;
 }
 .top_botton{
@@ -43,7 +41,6 @@ height: 48.603px;
 flex-shrink: 0;
 border-radius: 30px;
 background: #9C0332;
-margin-left: 120px;
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -77,6 +74,26 @@ color: #FFF;
     padding-left: 32px;
     padding-bottom: 32px;
     padding-right: 268px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.game_name2{
+    padding-top: 236px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-right: 262px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.game_name3{
+    padding-top: 236px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-right: 263px;
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
