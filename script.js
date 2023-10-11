@@ -56,4 +56,4 @@ delete user.cityofResidence;
 
 //Задание 9.4
 let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(user[info]);
+alert(user[info]); 
