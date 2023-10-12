@@ -76,11 +76,11 @@ color: #FFF;
     padding-top: 236px;
     padding-left: 32px;
     padding-bottom: 32px;
-    padding-right: 268px;
     color: #FFF;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
+    display: block;
 }
 .game_botton{ 
     display: flex;
@@ -88,3 +88,4 @@ color: #FFF;
     gap: 32px;
     flex-wrap: wrap;
     row-gap: 56px;}
+.footer{padding-bottom: 127px;}
