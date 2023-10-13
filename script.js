@@ -4,10 +4,10 @@ alert(a);
 a = 20;
 alert(a);
 //Задание 2
-let release = 2007;
+const release = 2007;
 alert(release)
 //Задание 3
-let creatorJava = 'Брендан Эйх';
+const creatorJava = 'Брендан Эйх';
 alert(creatorJava);
 //Задание 4
 let s = 10;
@@ -26,12 +26,12 @@ let modul = x % y;
 alert(modul);
 //Задание 7 не понял задания (*Э*)
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num ++;
+num --;
 alert(num);
 //Задание 8
 let ageUser = prompt("Сколько вам лет?");
