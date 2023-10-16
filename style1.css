@@ -35,6 +35,7 @@ a {
   line-height: normal;
   padding-top: 217px;
   padding-left: 120px;
+  justify-content: center;
 }
 
 .top_text {
@@ -117,6 +118,54 @@ a {
   border: 3px solid #44D2FF;
 }
 
+.game_bot {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text_bot {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 584px;
+}
+
+.bottom_border {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding-top: 410px;
+}
+
+.bot_botton {
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  color: #FFF;
+}
+
+.bot_img {
+  background-image: url(image/undraw_video_game_night_8h8m\ 1.png);
+  width: 485px;
+  height: 333px;
+}
+
+.bot_botton:hover {
+  background-color: #EB443F;
+}
+
 .footer {
   padding-bottom: 127px;
 }
@@ -155,5 +204,11 @@ a {
   }
   .game_name {
     padding-left: 16px;
+  }
+  .br_top {
+    display: none;
+  }
+  .game_bot {
+    font-size: 32px;
   }
 }/*# sourceMappingURL=style1.css.map */

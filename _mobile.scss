@@ -16,6 +16,7 @@
         line-height: 22px;
         text-align: center;
     }
+
     .top_botton {
         width: 234.063px;
         height: 48.603px;
@@ -29,9 +30,22 @@
         color: #FFF;
         margin-left: 70.47px;
     }
-    .game_1{
+
+    .game_1 {
         width: 343px;
     }
-    .game_name{padding-left: 16px;}
 
+    .game_name {
+        padding-left: 16px;
+    }
+
+    .br_top {
+        display: none;
+    }
+
+    .bottom_border {}
+
+    .game_bot {
+        font-size: 32px;
+    }
 }
