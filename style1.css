@@ -120,6 +120,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  display: block;
 }
 
 .text_bot {
@@ -171,17 +172,20 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
+
   .title {
     font-size: 32px;
     text-align: center;
     padding-left: 16px;
     padding-right: 16px;
   }
+
   .top_text {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
   }
+
   .top_botton {
     width: 234.063px;
     height: 48.603px;
@@ -195,16 +199,22 @@ a {
     color: #FFF;
     margin-left: 70.47px;
   }
+
   .game_1 {
     width: 343px;
   }
+
   .game_name {
     padding-left: 16px;
   }
+
   .br_top {
     display: none;
   }
+
   .game_bot {
     font-size: 32px;
   }
-}/*# sourceMappingURL=style1.css.map */
+}
+
+/*# sourceMappingURL=style1.css.map */
