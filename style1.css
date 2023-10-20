@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat;
-}
-
+  font-family: Montserrat; 
+  }
 a {
   text-decoration: none;
 }
@@ -16,6 +15,7 @@ a {
   background-size: cover;
   height: 1024px;
   box-sizing: border-box;
+  padding-top: 217px;
 }
 
 .center {
@@ -29,8 +29,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 217px;
-  padding-left: 120px;
+  padding-bottom: 32px;
   justify-content: center;
 }
 
@@ -40,8 +39,9 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
-  padding-left: 120px;
-  padding-top: 32px;
+  padding-bottom: 44px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .top_botton {
@@ -50,11 +50,11 @@ a {
   flex-shrink: 0;
   border-radius: 30px;
   background: #9C0332;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-top: 44px;
+  /* margin-top: 44px; */
   color: #FFF;
 }
 
@@ -86,7 +86,16 @@ a {
   height: 300px;
   border-radius: 16px;
 }
-
+.foter_box{
+  padding-top: 410px;
+  display: flex;
+  flex-direction: row;
+  gap: 49px;
+  flex-wrap: nowrap;
+  row-gap: 92px;
+  align-items: center;
+  align-content: center;
+}
 .footer {
   background: #000915;
 }
@@ -132,13 +141,7 @@ a {
   width: 584px;
 }
 
-.bottom_border {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  padding-top: 410px;
-}
+
 
 .bot_botton {
   width: 234.063px;
@@ -152,11 +155,17 @@ a {
   margin-top: 44px;
   color: #FFF;
 }
-
+.bottom_border {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 584px;
+}
 .bot_img {
   background-image: url(image/undraw_video_game_night_8h8m\ 1.png);
   width: 485px;
   height: 333px;
+  padding-left: 5;
 }
 
 .bot_botton:hover {
@@ -216,5 +225,3 @@ a {
     font-size: 32px;
   }
 }
-
-/*# sourceMappingURL=style1.css.map */
