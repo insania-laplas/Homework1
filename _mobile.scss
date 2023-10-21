@@ -17,6 +17,11 @@
         text-align: center;
     }
 
+    .botton_top {
+        display: flex;
+        justify-content: center;
+    }
+
     .top_botton {
         width: 234.063px;
         height: 48.603px;
@@ -28,7 +33,10 @@
         align-items: center;
         margin-top: 32px;
         color: #FFF;
-        margin-left: 70.47px;
+    }
+
+    .game_bot {
+        text-align: center;
     }
 
     .game_1 {
@@ -47,5 +55,27 @@
 
     .game_bot {
         font-size: 32px;
+    }
+
+    .foter_box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .text_bot {
+        font-size: 14px;
+        width: 343px;
+        text-align: center;
+    }
+
+    .bottom_border {
+        align-items: center;
+    }
+
+    .botton_text {
+        display: block;
     }
 }
