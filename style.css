@@ -224,6 +224,10 @@ a {
   justify-content: center;
   background-image: url(image/footer.png);
   height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .separation {
@@ -288,8 +292,30 @@ a {
   .br_top {
     display: none;
   }
+  .mid_game {
+    width: 100%;
+    height: 236px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .midl_text {
+    width: 100%;
+    text-align: center;
+  }
+  .midl_div {
+    gap: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
   .game_bot {
     font-size: 32px;
+  }
+  .bot_img {
+    width: 100%;
+    height: 236px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .foter_box {
     display: flex;
@@ -309,4 +335,4 @@ a {
   .botton_text {
     display: block;
   }
-}/*# sourceMappingURL=style1.css.map */
+}/*# sourceMappingURL=style.css.map */
