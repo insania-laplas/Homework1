@@ -52,7 +52,21 @@ function multiplyNumbers(num1, num2) {
 
 console.log(multiplyNumbers(5, 4));
 console.log(multiplyNumbers('sdfsdf', 4));
-//6 вот тут честно говоря не понимаю как делается
-//7 
+//6 
+function cubeNumber() {
+    let number = Number(prompt('Введите число:'));
+    if (isNaN(number)) {
+        return 'Переданный параметр не является числом';
+    } else {
+        let result = number ** 3;
+        return `${number} в кубе равняется ${result}`;
+    }
+}
+
+for (let i = 0; i <= 10; i++) {
+    console.log(cubeNumber(i));
+}
+//7 не понимаю суть задания можно пожалуйста объяснить как ребёнку?)
+
 
 
