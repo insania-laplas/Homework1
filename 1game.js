@@ -1,5 +1,4 @@
 function Season(month) {
-    let month = Number(prompt('Номер месяца'));
     if (month === 12 || month === 1 || month === 2) {
         return "Зима";
     } else if (month >= 3 && month <= 5) {
@@ -12,3 +11,5 @@ function Season(month) {
         return "Неправильный номер месяца";
     }
 }
+alert(Season(Number(prompt("Ведите число:"))));
+<button onclick="Season(Number(prompt(`Ведите число:`)"></button>

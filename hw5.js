@@ -66,7 +66,28 @@ function cubeNumber() {
 for (let i = 0; i <= 10; i++) {
     console.log(cubeNumber(i));
 }
-//7 не понимаю суть задания можно пожалуйста объяснить как ребёнку?)
+//7 
+const circle1 = {
+    radius: 5,
+    getArea() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+  
+  const circle2 = {
+    radius: 8,
+    getArea() {
+      return Math.PI * this.radius ** 2;
+    },
+    getPerimeter() {
+      return 2 * Math.PI * this.radius;
+    }
+  };
+//8
+
 
 
 
