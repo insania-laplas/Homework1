@@ -46,4 +46,43 @@ if (array6.includes(Number(userInput))) {
 } else {
     alert("Не угадал");
 }
-//8 к сожалению дальше не успел :(
+//8 
+const str = 'abcdef';
+const reversedStr = str.split('').reverse().join('');
+console.log(reversedStr);
+//9
+const array7 = [[1, 2, 3], [4, 5, 6]];
+const flattenedArray = array.flat();
+console.log(flattenedArray7);
+//10
+const array8 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < array8.length - 1; i++) {
+    const sum = array8[i] + array8[i + 1];
+    console.log(sum);
+}
+//11
+function squareArray(arr) {
+    return arr.map(num => num ** 2);
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const squaredNumbers = squareArray(numbers);
+console.log(squaredNumbers);
+//12
+function getLengthWords(arr) {
+    return arr.map(word => word.length);
+}
+
+const words = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+const wordLengths = getLengthWords(words);
+console.log(wordLengths);
+//13
+function filterPositive(array) {
+    return array.filter(num => num < 0);
+}
+
+console.log(filterPositive([-1, 0, 5, -10, 56]));
+console.log(filterPositive([-25, 25, 0, -1000, -2]));
+//14
+
