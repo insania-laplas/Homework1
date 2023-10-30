@@ -53,7 +53,7 @@ console.log(getRandomArrNumbers(12));
 const randomNumber = getRandomNumberInRange(1, 10);
 console.log(randomNumber);
 function getRandomNumberInRange(min, max) {
-  return Math.floor(Math.random() * (1 - 5 + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 //8
 console.log(new Date().toLocaleDateString());
@@ -61,4 +61,14 @@ console.log(new Date().toLocaleDateString());
 const currentDate = new Date();
 currentDate.setDate(currentDate.getDate() + 73);
 console.log(currentDate.toLocaleDateString());
-//10
+//10 (вот здесь игрался с ; но что то не получается)
+function formatDate(date) {
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = date.toLocaleDateString('ru-RU', options);
+  const time = date.toLocaleTimeString();
+  return Date ${ formattedDate } - это ${ formattedDate.split(',')[0] }time ${ time };
+}
+
+const currentDate = new Date();
+console.log(formatDate(currentDate));
+
